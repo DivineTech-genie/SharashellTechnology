@@ -12,7 +12,7 @@ export default function Home() {
           imgSrc={"/image/about-hero-img.jpg"}
           alt={"A woman standing and staring at her screen"}
         />
-        {/* <Services /> */}
+        <Services />
       </div>
     </div>
   );

@@ -17,7 +17,7 @@ const HomeHero = () => {
         <div className="text-primary-foreground max-w-11/12 lg:container mx-auto flex-1 flex items-center">
           <div className="justify-center flex flex-col pt-10">
             <div className="lg:w-xl justify-center flex flex-col pb-10 gap-5">
-              <h1 className="text-3xl lg:leading-17 lg:text-5xl">
+              <h1 className="text-3xl leading-12 lg:leading-17 lg:text-5xl">
                 Powering Your Business with SaaS Solutions & Affiliate Marketing
               </h1>
               <p>
@@ -54,7 +54,7 @@ const HomeHero = () => {
                       }
                     >
                       <IconComponent className="w-10 h-10 mb-2" />
-                      <h2 className="">{items.headText}</h2>
+                      <h2>{items.headText}</h2>
                     </div>
                   );
                 })}
