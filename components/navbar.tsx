@@ -36,7 +36,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-between max-w-5/6 lg:container mx-auto py-5 border-gray-700 border-b-1">
+      <div className="flex items-center justify-between max-w-11/12 lg:container mx-auto py-5 border-gray-700 border-b-1">
         <div className="flex justify-between items-center gap-5">
           <h1 className="text-primary-foreground text-3xl lg:text-4xl">
             Sharashell Technology

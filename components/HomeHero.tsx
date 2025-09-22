@@ -1,6 +1,7 @@
 import { Button } from "./ui/button";
 import Navbar from "./navbar";
 import { servicesItems } from "@/lib/types";
+import Link from "next/link";
 
 const HomeHero = () => {
   return (
@@ -13,7 +14,7 @@ const HomeHero = () => {
 
       <div className="relative z-10 h-full flex flex-col">
         <Navbar />
-        <div className="text-primary-foreground max-w-5/6 lg:container mx-auto flex-1 flex items-center">
+        <div className="text-primary-foreground max-w-11/12 lg:container mx-auto flex-1 flex items-center">
           <div className="justify-center flex flex-col pt-10">
             <div className="lg:w-xl justify-center flex flex-col pb-10 gap-5">
               <h1 className="text-3xl lg:leading-17 lg:text-5xl">
@@ -25,13 +26,18 @@ const HomeHero = () => {
                 growth for businesses and create profitable partnerships.
               </p>
 
-              <div className="grid md:grid-cols-2 gap-5">
-                <Button className="" size={"lg"}>
-                  Become a Partner
-                </Button>
-                <Button className="" variant={"secondary"} size={"lg"}>
-                  View our Solutions
-                </Button>
+              <div className="flex flex-col md:flex-row gap-5">
+                <Link href="partner">
+                  <Button className="w-full" size={"lg"}>
+                    Become a Partner
+                  </Button>
+                </Link>
+
+                <Link href="/solutions">
+                  <Button className="w-full" variant={"secondary"} size={"lg"}>
+                    View our Solutions
+                  </Button>
+                </Link>
               </div>
             </div>
             <div className="font-bold text-xl">
@@ -48,7 +54,7 @@ const HomeHero = () => {
                       }
                     >
                       <IconComponent className="w-10 h-10 mb-2" />
-                      <h2 className="">{items.text}</h2>
+                      <h2 className="">{items.headText}</h2>
                     </div>
                   );
                 })}
