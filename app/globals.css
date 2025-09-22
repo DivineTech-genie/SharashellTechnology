@@ -8,6 +8,8 @@
   --color-foreground: var(--foreground);
   --color-primary-foreground: var(--primary-foreground);
   --color-secondary-foreground: var(--secondary-foreground);
+  --font-primary: var(--font-firaSans);
+  --font-secondary: var(--font-rubik);
 }
 
 :root {
@@ -22,6 +24,9 @@
 
 @layer base {
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-secondary leading-8;
+  }
+  h1 {
+    @apply font-primary font-semibold;
   }
 }

@@ -5,7 +5,6 @@ import { Button } from "./ui/button";
 import { navItems } from "@/lib/types";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { IoTimeOutline } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 import { BiTimeFive } from "react-icons/bi";
@@ -16,7 +15,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="hidden lg:flex bg-secondary-foreground text-white h-screen md:h-16 text-sm font-semibold items-center">
+      <div className="hidden lg:flex bg-secondary-foreground text-primary-foreground h-screen md:h-16 text-sm items-center">
         <div className="container mx-auto hidden md:flex gap-5">
           <p className="flex items-center gap-2">
             <BiTimeFive className="text-secondary-background" /> Hours: Mon-Fri:
@@ -39,7 +38,7 @@ const Navbar = () => {
 
       <div className="flex items-center justify-between max-w-5/6 lg:container mx-auto py-5 border-gray-700 border-b-1">
         <div className="flex justify-between items-center gap-5">
-          <h1 className="text-primary-foreground font-bold text-3xl lg:text-4xl">
+          <h1 className="text-primary-foreground text-3xl lg:text-4xl">
             Sharashell Technology
           </h1>
 
@@ -51,7 +50,7 @@ const Navbar = () => {
                 className={
                   item.link === pathName
                     ? "text-secondary-background font-bold"
-                    : "text-white font-bold hover:text-secondary-background "
+                    : "text-primary-foreground font-semibold hover:text-secondary-background "
                 }
               >
                 <li>{item.page}</li>

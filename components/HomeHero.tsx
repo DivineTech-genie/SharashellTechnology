@@ -16,10 +16,10 @@ const HomeHero = () => {
         <div className="text-primary-foreground max-w-5/6 lg:container mx-auto flex-1 flex items-center">
           <div className="justify-center flex flex-col pt-10">
             <div className="lg:w-xl justify-center flex flex-col pb-10 gap-5">
-              <h1 className="text-3xl lg:leading-17 lg:text-5xl font-bold">
+              <h1 className="text-3xl lg:leading-17 lg:text-5xl">
                 Powering Your Business with SaaS Solutions & Affiliate Marketing
               </h1>
-              <p className="font-semibold">
+              <p>
                 Sharashell Technology delivers cutting-edge SaaS development,
                 affiliate marketing solutions, and automation tools that drive
                 growth for businesses and create profitable partnerships.
@@ -47,7 +47,7 @@ const HomeHero = () => {
                           : "bg-[#1d2222]/20 flex flex-col items-center justify-center p-10 border-b-2 md:border-r-2 border-gray-600/50 min-h-40 md:min-h-42"
                       }
                     >
-                      <IconComponent className="w-8 h-8 mb-2" />
+                      <IconComponent className="w-10 h-10 mb-2" />
                       <h2 className="">{items.text}</h2>
                     </div>
                   );
