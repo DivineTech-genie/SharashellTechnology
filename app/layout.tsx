@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Hero from "@/components/Hero";
+import Footer from "@/components/Footer";
 
 const rubik = localFont({
   src: "../public/fonts/Rubik/Rubik-VariableFont_wght.ttf",
@@ -28,10 +30,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${rubik.variable} ${firaSans.variable} antialiased`}>
-        {/* <HomeHero headText="" imgSrc="">
-          <Navbar />
-        </HomeHero> */}
+        <Hero />
         {children}
+        <Footer />
       </body>
     </html>
   );
