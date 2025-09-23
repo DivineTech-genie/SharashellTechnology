@@ -8,14 +8,14 @@ interface ITProps {
 
 const ItSolution = ({ imgSrc, alt }: ITProps) => {
   return (
-    <section className="lg:mt-24 mt-10 flex flex-col md:flex-row  gap-4 lg:gap-20 max-w-11/12 lg:container mx-auto">
+    <section className="lg:mt-24 mt-10 flex flex-col lg:flex-row gap-4 lg:gap-20 max-w-11/12 lg:container mx-auto">
       <div className="flex-1">
         <Image
           src={imgSrc}
           alt={alt}
           width={1000}
           height={1000}
-          className="w-full max-h-full min-h-[400px] object-cover rounded-xl"
+          className="w-full h-full min-h-[400px] bg-right object-cover rounded-xl"
         />
       </div>
 
@@ -30,16 +30,21 @@ const ItSolution = ({ imgSrc, alt }: ITProps) => {
           </h1>
         </div>
 
-        <div className="border-l-2 border-secondary-background/30 px-4 md:px-5">
+        <div className="border-l-2 border-secondary-background/20 px-4 md:px-5">
           <p className=" text-gray-400 pb-4">
-            Our company excels in delivering high-quality, innovative IT
-            solutions through advanced technology and meticulous attention to
-            detail.
+            Sharashell Technology was founded with a clear vision: to bridge the
+            gap between cutting-edge technology and practical business
+            solutions. As a U.S.-registered company based in Wyoming, we
+            understand the importance of trust, compliance, and reliability in
+            today&apos;s digital landscape.
           </p>
           <p className=" text-gray-400">
-            We specialize in offering customized, scalable digital solutions
-            designed to meet the specific needs of each client, fostering a
-            collaborative approach to achieve tailored outcomes.
+            Our journey began with a simple observation - businesses needed more
+            than just software; they needed strategic partners who could
+            understand their unique challenges and deliver solutions that drive
+            real growth. Today, we serve clients across multiple industries,
+            helping them leverage technology to achieve their business
+            objectives.
           </p>
 
           <div className="flex flex-col gap-5 pt-5">

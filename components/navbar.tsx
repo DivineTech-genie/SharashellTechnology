@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="hidden lg:flex bg-secondary-foreground text-primary-foreground h-screen md:h-16 text-sm items-center">
+      <div className="hidden lg:flex bg-foreground/90 text-primary-foreground h-screen md:h-16 text-sm items-center">
         <div className="container mx-auto hidden md:flex gap-5">
           <p className="flex items-center gap-2">
             <BiTimeFive className="text-secondary-background" /> Hours: Mon-Fri:
