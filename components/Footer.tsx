@@ -79,7 +79,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <p className="text-center py-6">
+      <p className="text-center p-6">
         © 2025 Sharashell Technology. All rights reserved. | EIN: in-progress
       </p>
     </section>

@@ -70,7 +70,7 @@ const Hero = () => {
 
   return (
     <div
-      className="w-full h-full min-h-screen bg-cover bg-top md:bg-center bg-fixed relative"
+      className="w-full bg-cover bg-top md:bg-center bg-fixed relative"
       style={{ backgroundImage: `url(${imgSrs})` }}
     >
       {/* Dark overlay */}
@@ -84,7 +84,8 @@ const Hero = () => {
               {"/" !== pathName && (
                 <div className="flex items-center gap-3">
                   <p className="flex items-center gap-1">
-                    <IoHome className="text-secondary-background" /> Home
+                    <IoHome className="text-secondary-background" />
+                    Home
                   </p>
                   <IoIosArrowForward
                     className="text-secondary-background"

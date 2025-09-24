@@ -122,3 +122,40 @@ export const coreValues: CoreValuesType[] = [
       "We embrace cutting-edge technologies and creative solutions to solve complex business challenges effectively.",
   },
 ];
+
+type BusinessStories = {
+  imgSrc: string;
+  storyType: string;
+  headText: string;
+  subText: string;
+  alt: string;
+};
+
+export const BusinessStorie: BusinessStories[] = [
+  {
+    imgSrc: "/image/E1097HLC.avif",
+    storyType: "Cloud Computing Scalabilty",
+    headText: "Optimizing Cloud Infracstructure for Global Scalability",
+    subText:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit cumque ullam excepturi earum?",
+    alt: "Woman Staring at a screen",
+  },
+
+  {
+    imgSrc: "/image/network-engineer.avif",
+    storyType: "Cybersecurity Data Protection",
+    headText: "Enhancing Cybersecurity for a Financial Institution",
+    subText:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit cumque ullam excepturi earum?",
+    alt: "Mature Network Engineer",
+  },
+
+  {
+    imgSrc: "/image/assian-male.avif",
+    storyType: "Cloud Computing Scalability",
+    headText: "Automationg IT Process to Bosst Eficiency",
+    subText:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit cumque ullam excepturi earum?",
+    alt: "Assian Male Engineer with Laptop",
+  },
+];

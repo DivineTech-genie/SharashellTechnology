@@ -1,5 +1,8 @@
+import BussinesSuccess from "@/components/BussinesSuccess";
+import ClientsTestemony from "@/components/ClientsTestemony";
 import ItSolution from "@/components/ItSolution";
 import Services from "@/components/services";
+import SubService from "@/components/SubService";
 
 export default function Home() {
   return (
@@ -9,6 +12,9 @@ export default function Home() {
         alt={"A woman standing and staring at her screen"}
       />
       <Services />
+      <SubService />
+      <BussinesSuccess />
+      <ClientsTestemony />
     </div>
   );
 }
