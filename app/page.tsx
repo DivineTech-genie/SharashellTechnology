@@ -3,6 +3,7 @@ import ClientsTestemony from "@/components/ClientsTestemony";
 import ItSolution from "@/components/ItSolution";
 import Services from "@/components/services";
 import SubService from "@/components/SubService";
+import WhyPartner from "@/components/WhyPartner";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <SubService />
       <BussinesSuccess />
       <ClientsTestemony />
+      <WhyPartner />
     </div>
   );
 }
