@@ -1,8 +1,9 @@
 import Image from "next/image";
 import { FaRegStar } from "react-icons/fa6";
 import { GiGlobe } from "react-icons/gi";
-import { LuHandshake } from "react-icons/lu";
+import { LuHandshake, LuSend } from "react-icons/lu";
 import { TiArrowSyncOutline } from "react-icons/ti";
+import { Button } from "./ui/button";
 
 const ClientsTestemony = () => {
   return (
@@ -120,6 +121,9 @@ const ClientsTestemony = () => {
                 />
               </p>
             </div>
+            <Button type="submit" className="mt-6 w-full flex items">
+              Send Message <LuSend />
+            </Button>
           </div>
         </div>
       </div>
