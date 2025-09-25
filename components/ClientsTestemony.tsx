@@ -117,7 +117,7 @@ const ClientsTestemony = () => {
                 <label htmlFor="message">Message Us *</label>
                 <textarea
                   placeholder="Tell us about your project requirements, goals, and timeline..."
-                  className="w-full min-h-5 md:min-h-8 lg:min-h-20 shadow rounded-lg py-2 pl-4"
+                  className="w-full min-h-5 md:min-h-4 lg:min-h-10 shadow rounded-lg py-2 pl-4"
                 />
               </p>
             </div>
