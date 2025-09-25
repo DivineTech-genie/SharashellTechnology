@@ -43,7 +43,7 @@ const ClientsTestemony = () => {
 
           {/* Other Clients */}
           <div>
-            <h3>Our Clients</h3>
+            <h3 className="text-xl font-semibold">Our Clients</h3>
 
             <div className="flex items-center py-6 gap-4">
               <LuHandshake fontSize={34} className="" />
@@ -121,7 +121,11 @@ const ClientsTestemony = () => {
                 />
               </p>
             </div>
-            <Button type="submit" className="mt-6 w-full flex items">
+            <Button
+              type="submit"
+              className="mt-6 w-full flex items-center gap-2"
+              size={"sm"}
+            >
               Send Message <LuSend />
             </Button>
           </div>
