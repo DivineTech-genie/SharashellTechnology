@@ -16,7 +16,11 @@ const WhyPartner = () => {
 
             <div>
               <h2 className="text-2xl font-semibold flex items-center gap-2">
-                <FiCheckCircle fontSize={24} /> U.S.-Based & Compliant
+                <FiCheckCircle
+                  fontSize={24}
+                  className="text-secondary-background"
+                />{" "}
+                U.S.-Based & Compliant
               </h2>
               <p>
                 Registered in Wyoming with full legal compliance and
@@ -25,13 +29,20 @@ const WhyPartner = () => {
             </div>
             <div>
               <h2 className="text-2xl font-semibold flex items-center gap-2">
-                <FiCheckCircle fontSize={24} /> Proven Track Record
+                <FiCheckCircle
+                  fontSize={24}
+                  className="text-secondary-background"
+                />{" "}
+                Proven Track Record
               </h2>
               <p>15+ successful projects with 98% client satisfaction rate.</p>
             </div>
             <div>
               <h2 className="text-2xl font-semibold flex items-center gap-2">
-                <FiCheckCircle fontSize={24} />
+                <FiCheckCircle
+                  fontSize={24}
+                  className="text-secondary-background"
+                />
                 Cutting-Edge Technology
               </h2>
               <p>
@@ -41,7 +52,11 @@ const WhyPartner = () => {
             </div>
             <div>
               <h2 className="text-2xl font-semibold flex items-center gap-2">
-                <FiCheckCircle fontSize={24} /> Dedicated Support
+                <FiCheckCircle
+                  fontSize={24}
+                  className="text-secondary-background"
+                />{" "}
+                Dedicated Support
               </h2>
               <p>24/7 technical support and dedicated account management.</p>
             </div>
