@@ -13,8 +13,7 @@ const BussinesSuccess = () => {
               Delivering Tailored IT Solutions
             </p>
             <h1 className="headText">
-              Empowering Your Business with Reliable, Secure, and Scalable IT
-              Solutions!
+              Sucess Stories from Our Innovative Solutions For Your Business
             </h1>
           </div>
           <div className="flex flex-col gap-5">
