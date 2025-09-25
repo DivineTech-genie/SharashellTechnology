@@ -117,13 +117,13 @@ const ClientsTestemony = () => {
                 <label htmlFor="message">Message Us *</label>
                 <textarea
                   placeholder="Tell us about your project requirements, goals, and timeline..."
-                  className="w-full min-h-5 md:min-h-10 lg:min-h-40 shadow rounded-lg py-2 pl-4"
+                  className="w-full min-h-5 md:min-h-8 lg:min-h-20 shadow rounded-lg py-2 pl-4"
                 />
               </p>
             </div>
             <Button
               type="submit"
-              className="mt-6 w-full flex items-center gap-2"
+              className="mt-4 w-full flex items-center gap-2"
               size={"sm"}
             >
               Send Message <LuSend />
